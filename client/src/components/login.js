@@ -1,15 +1,10 @@
 import React, { Component } from 'react';
-import './customers.css';
 
-class Customers extends Component {
-  constructor() {
-    super();
-    this.state = {
-      users:[],
-      customers: [],
-      newTask: ""
-    };
-  }
+const initialState = {
+
+}
+
+class Logins extends Component {
 
   componentDidMount() {
     this.fetchTasks();
@@ -73,4 +68,4 @@ class Customers extends Component {
   }
 }
 
-export default Customers;
+export default Login;

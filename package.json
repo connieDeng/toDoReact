@@ -10,12 +10,13 @@
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "Brad Traversy",
+  "author": "Connie Deng",
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^1.14.6"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "concurrently": "^3.5.1",
     "express": "^4.16.2",
     "update": "^0.7.4"
